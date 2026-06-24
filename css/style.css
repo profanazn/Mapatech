@@ -95,3 +95,41 @@ h1 {
     font-weight: bold;
     color: white;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 30px;
+
+    flex-wrap: wrap;
+}
+
+.menu button {
+
+    background: #1e293b;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 999px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.menu button:hover {
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #06b6d4
+    );
+
+    transform: translateY(-2px);
+}
