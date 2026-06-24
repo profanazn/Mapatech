@@ -1,0 +1,97 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis */
+
+:root {
+    --azul-escuro: #0f172a;
+    --azul: #2563eb;
+    --ciano: #06b6d4;
+    --texto: #f8fafc;
+    --texto-secundario: #cbd5e1;
+    --card: rgba(15, 23, 42, 0.75);
+}
+
+/* Página */
+
+body {
+    min-height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:
+        radial-gradient(circle at top,
+        #1e40af,
+        #0f172a 60%);
+
+    color: var(--texto);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+
+    text-align: center;
+}
+
+/* Logo */
+
+.logo {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+/* Título */
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: var(--texto-secundario);
+    margin-bottom: 40px;
+}
+
+/* Card */
+
+.card {
+    background: var(--card);
+
+    border: 1px solid rgba(255,255,255,0.15);
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 20px 50px rgba(0,0,0,0.30);
+}
+
+.card h2 {
+    color: var(--ciano);
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.7;
+    color: var(--texto-secundario);
+}
+
+#horario {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
